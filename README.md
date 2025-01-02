@@ -7,13 +7,13 @@ This test repo was created to inicialy play with GitHub and try basic functional
 ssh-keygen -t rsa -b 4096 -C <email>@gmail.com
 
 3. Configure git terminal:
-    git config --global user.name <username>
-    git config --global user.email <email>
+git config --global user.name <username>
+git config --global user.email <email>
 
-4. Clone this project
+5. Clone this project
 git clone git@github.com:Brano21/test.git
 
-5. Create new branches, add files and push them to GitHub
+6. Create new branches, add files and push them to GitHub
 git checkout -b <new_branch_name>
 git add.
 git commit -m "<commit>"
