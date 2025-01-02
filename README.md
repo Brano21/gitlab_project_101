@@ -19,6 +19,4 @@ git add.
 git commit -m "<commit>"
 git push -u origin <new_branch_name>
 
-git checkout master
-
 6. In GitHub we Create Pull Request and then Merge Pull Request
