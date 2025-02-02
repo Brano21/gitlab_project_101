@@ -34,3 +34,18 @@ This repository was created to experiment with GitHub and explore its basic func
 6. **In GitHub we Create Pull Request and then Merge Pull Request**: \
    In GitHub, create a pull request for your branch. \
    Review the changes and merge the pull request into the main branch.
+
+### Note:
+Walkthrough how you can restart the SSH agent and add your SSH key properly
+
+**Start the SSH Agent** \
+   `eval "$(ssh-agent -s)"`
+
+**Add Your SSH Key to the Agent** \
+   `ssh-add ~/.ssh/id_rsa`
+
+**Verify the Key is Added** \
+   `ssh-add -l`
+
+**Test SSH Connection to GitHub** \
+   `ssh -T git@github.com`
